@@ -1,0 +1,41 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "Shoppping cart project APIs using Node, Express, MongoDB",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arkisoul/shopping-cart.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "MongoDB",
+    "APIs"
+  ],
+  "author": "Arpit Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arkisoul/shopping-cart/issues"
+  },
+  "homepage": "https://github.com/arkisoul/shopping-cart#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1006.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "currency-symbol": "^1.0.6",
+    "currency-symbol-map": "^5.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.10",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
