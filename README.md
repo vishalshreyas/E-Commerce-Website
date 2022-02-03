@@ -1,4 +1,4 @@
-# titaniumaplus
+# Radium
 
 ## Project - Products Management
 
